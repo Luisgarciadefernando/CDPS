@@ -1,0 +1,21 @@
+<div class="row">
+	<div class="col-sm-12 text-center" style="margin-bottom: 25px;">
+		<label style="font-size: 24px;">My photos</label>
+	</div>
+</div>
+<div class="photos">
+	<%for (var t in photos) {%>
+	<ul class="col-xs-6 col-sm-6 col-md-4 col-lg-3">
+		<li>
+            <span>
+                <a href='/photos/<%=t%>'style="margin-bottom: 10px;">
+					<img src="<%=photos[t].url%>" style="width: 200px; height:200px; border: 2px solid #374092;">
+				</a>
+            </span>
+            <span style="font-size: 16px; font-weight: 500; color: #333;">
+                <%=photos[t].name%>
+            </span>
+		</li>
+	</ul>
+	<%}%>
+</div>

@@ -1,0 +1,246 @@
+body {
+	padding: 5px;
+	padding-top: 0;
+	margin-top: 0;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background: #F2F2F2;
+}
+
+a {
+	color: #FF3A00;
+}
+
+a:focus, a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color:rgba(255, 255, 255, 0.25);
+}
+
+p {
+	padding-top: 10px;
+}
+
+.col-sm-3:focus, .col-sm-3:hover {
+	color: black;
+}
+
+img {
+	-webkit-box-sizing: initial;
+}
+
+#titulo {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	padding-top: 10px;
+}
+
+#titulo:focus, a:hover {
+	background-color:rgba(255, 255, 255, 0);
+}
+
+h2 {
+	padding-top: 25vw;
+	font-size: 2.25vw;
+	font-weight: 100;
+	margin: 0 0 16px 0;
+	margin-top: -100px;
+	color: #fff;
+	text-align: center;
+}
+
+form {
+	text-align: center;
+}
+
+.form {
+	margin-bottom: 15px;
+}
+
+#header {
+	padding-top: 25px;
+	padding-bottom: 45px;
+	position: relative;
+	margin-right: 1vw;
+	margin-left: 1vw;
+	overflow: hidden;
+	border-top: 0px solid #374092;
+	background-color: #666;
+	background-position: center center;
+	background-image: url(http://blog.hdwallsource.com/wp-content/uploads/2016/02/monochrome-camera-lens-wallpaper-49995-51680-hd-wallpapers.jpg);
+	height: 36vw;
+	background-size: 97vw;
+	background-position-y:-4vw;
+}
+
+#container {
+	background: #fff;
+	margin-top: -100px;
+	margin-right: 1vw;
+	margin-left: 1vw;
+	padding-top: 100px;
+	padding-bottom: 600px;
+}
+
+#container-body {
+	padding-top: 25px;
+	text-align: center;
+}
+
+#welcome {
+	padding-top: 50px;
+	text-align: center;
+}
+
+#welcome span {
+	margin-top: 20px;
+}
+
+audio {
+	display: block;
+	width: 302px;
+	margin: 10px auto;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.photo {
+	padding-top: 4vw;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+
+.photo_playing button {
+	margin-left: 0;
+}
+
+.photo p {
+	text-align: center;
+}
+
+.photo img {
+	border: 3px solid #374092;
+}
+
+.photo_playing img {
+	width: 400px;
+	height: 400px;
+	margin-bottom: 20px;
+}
+
+.btn-file {
+	position: relative;
+	overflow: hidden;
+}
+
+.btn-file input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	min-width: 100%;
+	min-height: 100%;
+	font-size: 100px;
+	text-align: right;
+	filter: alpha(opacity=0);
+	opacity: 0;
+	background: red;
+	cursor: inherit;
+	display: block;
+}
+
+input[readonly] {
+	background-color: white !important;
+	cursor: text !important;
+}
+
+#botones {
+	text-align: center;
+}
+
+.button {
+	display: inline-block;
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid #e5e5e5;
+	border-radius: 3px;
+	background-color:rgba(55, 64, 146, 0.5);
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+	white-space: nowrap;
+	font-family: "Interstate","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+	font-weight: 100;
+	text-align: center;
+	vertical-align: baseline;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 18px;
+	padding: 10px 15px;
+	height: 40px;
+}
+
+.btn-primary {
+	color: #fff;
+	background-color:rgba(55, 64, 146, 0.9);
+	border-color: #fff;
+}
+
+.btn-primary:active {
+	color: #fff;
+	background-color: #374092;
+	border-color: #374092;
+}
+
+.btn-primary:focus {
+	color: #fff;
+	background-color: #374092;
+	border-color: #374092;
+}
+
+.btn-primary:hover {
+	color: #fff;
+	background-color: #374092;
+	border-color: #374092;
+}
+
+.col-sm-4 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.photos {
+	display: block;
+}
+
+.photos ul {
+	list-style: none;
+	margin-bottom: 25px;
+}
+
+.photos ul li {
+	display: inline;
+	list-style: none;
+	text-align:center;
+}
+
+.photos ul li span a {
+	background-color: #fff;
+}
+
+.photos ul li a {
+	display: block;
+	opacity: 1.0;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.photos ul li a:hover {
+	opacity: 0.75;
+}
